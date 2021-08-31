@@ -1,0 +1,131 @@
+body {
+    background-color: #222831;
+}
+.wrapper {
+    background: url(../images/BG.png) no-repeat top/100%;
+    max-width: 1920px;
+    margin: 0 auto;
+}
+.main-menu {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 10000;
+    height: 120px;
+    max-width: 1920px;
+    margin: 0 auto;
+    border-bottom: solid 0.5px rgba(255, 255, 255, 0.3);
+}
+
+.menu-container {
+    margin: 0 auto;
+    max-width: 1200px;
+    justify-content: space-between;
+    display: flex;
+    /* justify-items: center; */
+    align-items: center;
+    /* padding: 40px 0; */
+}
+
+.nav-menu {
+    font-size: 22px;
+    text-align: center;
+    display: flex;
+    gap: 0 50px;
+    /* align-items: center; */
+    /* justify-items: center; */
+}
+
+.icon-menu {
+    display: flex;
+    justify-content: space-between;
+    gap: 50px;
+}
+.nav-menu > li{
+    padding: 49px 0 49px 0;
+}
+.sub-nav{
+    position:relative;
+}
+
+.sub-nav:hover .sub-nav-item{
+    display: block;
+}
+.sub-nav:hover .menu-item{
+    text-decoration: underline;
+}
+
+.sub-nav-item {
+    display: none;
+    position:absolute;
+    top: 120px;
+    width: 200px;
+    text-align: justify;
+    background-color: #384049a9;
+}
+.subnav {
+    padding: 15px 10px;
+}
+.subnav:hover {
+    background-color: rgba(250, 235, 215, 0.788);
+    color: #222831;
+}
+.hero-container {
+    max-width: 570px;
+    padding: 390px 0 390px 0;
+    margin-left: 375px;
+}
+.hero-content {
+    color: #ffffff;
+    margin-bottom: 50px;
+}
+.hero-header {
+    text-transform: uppercase;
+    font-weight: 800;
+    font-size: 120px;
+    margin-bottom: 20px;
+}
+.hero-sub {
+    font-size: 40px;
+}
+.hero-video {
+    display: flex;
+    gap: 25px;
+}
+.video-sub {
+    font-size: 18px;
+    font-family: 'Open Sans';
+    font-weight: 600;
+    padding: 25px 25px;
+    color: #ffffff;
+}
+
+.summary {
+    padding: 150px 0 200px 0;
+}
+.sum-container {
+    max-width: 1200px;
+    padding: 0 15px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    gap: 30px;
+}
+.sum-box {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    border-radius: 4px;
+    background-color: #2b3139;
+    padding: 75px 55px 70px 55px;
+}
+.sum-box-img {
+    margin-bottom: 45px;
+}
+.sum-box-header {
+    font-size: 22px;
+    margin-bottom: 15px;
+}
