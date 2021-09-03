@@ -104,10 +104,12 @@ body {
 .summary {
     padding: 150px 0 200px 0;
 }
-.sum-container {
+.container-section {
     max-width: 1200px;
     padding: 0 15px;
     margin: 0 auto;
+}
+.sum-container {
     display: flex;
     flex-direction: row;
     flex-wrap: nowrap;
@@ -128,4 +130,127 @@ body {
 .sum-box-header {
     font-size: 22px;
     margin-bottom: 15px;
+}
+.smartphone {
+    margin-bottom: 100px;
+}
+.container {
+    display: flex;
+    justify-content: space-between;
+    gap: 0 70px;
+    align-items: center;
+}
+.content-container {
+    max-width: 470px;
+}
+
+.caption {
+    color: #f65464;
+    font-weight: bold;
+    margin-bottom: 40px;
+}
+.content-heading {
+    font-size: 36px;
+    line-height: 1.55555556;
+    margin-bottom: 40px;
+
+}
+.content-text {
+    /* margin-bottom: 45px; */
+}
+
+.link-submit {    
+    width: 100%;
+    padding: 20px 0;
+    display: inline-block;
+    border-radius: 5px;
+    font-size: 16px;
+    font-weight: bold;
+    background-image: linear-gradient(to right, #f66963, #f68726);
+    text-align: center;
+}
+
+.smartphone-img {
+    max-width: 500px;
+    position: relative;
+}
+.smartphonepng {
+    position: absolute;
+    top: 50%;
+    left: 65%;
+    transform: translate(-50%, -50%);
+    max-width: initial;
+}
+.background-grid {
+    position: absolute; 
+    z-index: -1;
+}
+.grid-smartphone {
+    left: -100px;
+    bottom: -100px;
+}
+
+.allworks{
+    margin-top: 200px;
+}
+
+
+.allworks-content {
+    max-width: 500px;
+    text-align: center;
+    margin: 0 auto 100px;
+}
+
+.allworks-imgs {
+    display: flex;
+    gap: 0 30px;
+    margin-bottom: 70px;
+}
+.collum {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    gap: 30px 0;
+}
+.smallsubmit {
+    margin-top: 70px;
+    max-width: 230px;
+}
+.allworks-submit {
+    margin: 0 auto;
+}
+.experience {
+    margin: 200px 0;
+}
+
+.experience-img {
+    padding-left: 120px;
+    width: 570px;
+    position: relative;
+}
+.grid-number {
+    right: -100px;
+    bottom: -100px;
+}
+.partner-header {
+    margin-bottom: 70px;
+}
+.partner-caption{
+    text-align: center;
+    margin-bottom: 0;
+}
+
+.partner-imgs {
+    display: grid;
+    grid-gap: 30px;
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: 1fr 1fr;
+
+}
+.partner-item {
+    background-color: #2b3139;
+    border-radius: 5px;
+    display: flex;
+    justify-content: center;
+    padding: 40px;
 }

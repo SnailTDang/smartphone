@@ -158,7 +158,7 @@
   img {
     border-style: none;
     display: block;
-    width: 100%;
+    max-width: 100%;
   }
   
   /* Forms
