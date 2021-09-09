@@ -254,3 +254,56 @@ body {
     justify-content: center;
     padding: 40px;
 }
+.testimonials {
+    margin: 100px 0;
+}
+.scroll-flex {
+    gap: 70px;
+    /* overflow-y: hidden; */
+    /* overflow-x: auto; */
+    display: flex;
+}
+/* .scroll-flex::-webkit-scrollbar {
+    height: 20px;
+}
+.scroll-flex::-webkit-scrollbar-track{
+    background: #f1f1f100; 
+}
+.scroll-flex::-webkit-scrollbar-thumb{
+    background: #f65464;
+    border-radius: 50rem;
+} */
+.test-container {
+    border-radius: 10px;
+    box-shadow: rgb(149 157 165 / 20%) 0px 8px 24px;
+}
+.test-wrapper {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    min-width: 830px;
+    padding: 0 100px;
+}
+.test-text {
+    font-size: 30px;
+    color: #eeeeee;
+}
+.img-reviewers {
+    height: 85px;
+    width: 85px;
+    border-radius: 50%;
+    overflow: hidden;
+    margin-bottom: 30px;
+}
+.vectorial {
+    margin-bottom: 50px;
+}
+.test-content {
+    margin-bottom: 50px;
+}
+.name-reviewers {
+    font-weight: bold;
+    margin-bottom: 20px;
+}
