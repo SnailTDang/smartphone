@@ -259,11 +259,11 @@ body {
 }
 .scroll-flex {
     gap: 70px;
-    /* overflow-y: hidden; */
-    /* overflow-x: auto; */
+    overflow-y: hidden;
+    overflow-x: auto;
     display: flex;
 }
-/* .scroll-flex::-webkit-scrollbar {
+.scroll-flex::-webkit-scrollbar {
     height: 20px;
 }
 .scroll-flex::-webkit-scrollbar-track{
@@ -272,7 +272,7 @@ body {
 .scroll-flex::-webkit-scrollbar-thumb{
     background: #f65464;
     border-radius: 50rem;
-} */
+}
 .test-container {
     border-radius: 10px;
     box-shadow: rgb(149 157 165 / 20%) 0px 8px 24px;
