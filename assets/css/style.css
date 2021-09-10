@@ -214,6 +214,7 @@ body {
 }
 .block {
     overflow: hidden;
+    border-radius: 10px;
 }
 .block > img {
     transition: all .3s linear;
