@@ -53,11 +53,14 @@
 }
 @media screen and (max-width: 1025px) {
     .main-menu {
-        display: flex;
-        align-items: center;
+        width: 100vw;
+        margin: 0;
     }
     .menu-container {
-        gap: 250px;
+        max-width: 720px;
+        justify-content: space-between;
+        padding: 20px 0;
+
     }
     .nav-menu {
         display: none;
@@ -69,10 +72,179 @@
         padding: 150px 0;
         margin-left: 150px;
     }
+    .smartphonepng {
+        left: 55%;
+        max-width: 150%;
+    }
 }
 @media screen and (max-width: 769px) {
+    body {
+        /* overflow: hidden; */
+    }
     .menu-container {
+        margin: 0 50px;
+    }
+    .hero-container {
+        max-width: 370px;
+        padding: 16% 0;
+        margin-left: 7%;
+
+    }
+    .hero-content {
+
+    }
+    .hero-header {
+        font-size: 70px;
+    }
+    .hero-sub {
+        font-size: 25px;
+    }
+    .play-icon > img {
+        max-width: 60%;
+    }
+    .video-sub {
+        font-size: 12px;
+        font-family: 'Open Sans';
+        font-weight: 600;
+        padding: 15px;
+        color: #ffffff;
+    }
+    .container-section {
         max-width: 600px;
-        gap: 200px;
+    }
+    .summary {
+        padding: 70px 0 70px 0;
+    }
+    .smartphone {
+        margin-bottom: 70px;
+    }
+    .background-smartphone {
+        margin: 0 auto;
+        max-width: 75%;
+    }
+    .smartphonepng {
+        left: 50%;
+        max-width: 100%;
+    }
+    .background-grid {
+        max-width: 50%;
+    }
+    /* .grid-smartphone {
+        left: -50px;
+        bottom: -50px;
+    } */
+    .smallsubmit {
+        margin-top: 35px;
+    }
+    .allworks {
+        margin-top: 100px;
+    }
+    .allworks-content {
+        margin: 0 auto 50px;
+    }
+    .content-heading {
+        margin-bottom:  20px;
+    }
+    .caption {
+        margin-bottom: 20px;
+    }
+    .allworks-imgs {
+        margin-bottom: 35px;
+    }
+    .experience {
+        margin: 70px 0;
+    }
+    .experience-img {
+        margin: 0 auto;
+        padding: 0;
+        width: initial;
+    }
+    .grid-number {
+        right: 0%;
+        bottom: -20%;   
+    }
+    .grid-smartphone {
+        left: -5%;
+        bottom: -20%;
+    }
+    
+    .partner-header {
+        margin-bottom: 35px;
+    }
+    .partner-imgs {
+        grid-template-columns: repeat(2, 1fr);
+    }
+    .test-wrapper {
+        min-width: 530px;
+        padding: 35px;
+    }
+    .test-text {
+        font-size: 20px;
+    }
+    .vectorial,
+    .test-content {
+        margin-bottom: 20px;
+    }
+    
+     
+}
+@media  (max-width: 490px) {
+    .main-menu {
+        height: 60px;
+    }
+    .menu-container {
+        padding: 5px 0;
+        margin: 0 20px;
+        justify-content: space-between;
+    }
+    .icon-menu {
+        justify-content: space-between;
+        gap: 20px;
+    }
+    .search-icon {
+        display: none;
+    }
+    .menu-smartphone {
+        padding: 15px 15px;
+        border-radius: 50%;
+        background-color: #3333;
+    }
+    .hero-container {
+        padding: 25% 0 9% 0;
+    }
+    .hero-content {
+        margin-bottom: 10px;
+    }
+    .hero-header {
+        font-size: 30px;
+        margin-bottom: 10px;
+    }
+    .hero-sub {
+        font-size: 12px;
+    }
+    .hero-video {
+        gap: 5px;
+    }
+    .play-icon {
+        height: 35px;
+    }
+    .play-icon > img {
+        max-width: 50%;
+    }
+
+    .video-sub {
+        padding: 10px;
+        font-size: 10px;
+    }
+    .summary {
+        padding: 50px 0;
+    }
+    .sum-box {
+        max-width: 85%;
+        padding: 35px 35px;
+    }
+    .allworks-imgs {
+        flex-wrap: wrap;
+        gap: 30px;
     }
 }
