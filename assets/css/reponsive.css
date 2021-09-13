@@ -45,10 +45,16 @@
         max-width: 900px;
         flex-wrap: wrap;
         justify-content: center;
-        gap: 50px;
+        gap: 30px;
+    }
+    .summary {
+        padding: 100px 0;
+    }
+    .sum-container {
+        flex-wrap: nowrap;
     }
     .sum-box {
-        max-width: 70%;
+        padding: 40px 25px;
     }
 }
 @media screen and (max-width: 1025px) {
@@ -114,6 +120,12 @@
     }
     .summary {
         padding: 70px 0 70px 0;
+    }
+    .sum-container {
+        /* flex-wrap: wrap; */
+    }
+    .sum-box {
+        max-width: 70%;
     }
     .smartphone {
         margin-bottom: 70px;
