@@ -10,15 +10,15 @@
   }
   .hero-container {
     max-width: 570px;
-    padding: 290px 0 290px 0;
-    margin-left: 200px;
+    /* padding: 290px 0 290px 0;
+    margin-left: 200px; */
   }
 }
 @media (max-width: 1367px) {
     .hero-container {
         max-width: 570px;
-        padding: 225px 0 225px 0;
-        margin-left: 200px;
+        /* padding: 225px 0 225px 0;
+        margin-left: 200px; */
     }  
     .summary {
         padding: 100px 0 150px 0;
@@ -31,7 +31,7 @@
     }
     .hero-container {
         max-width: 470px;
-        padding: 200px 0 200px 0;
+        /* padding: 200px 0 200px 0; */
 
     }
     .hero-content {
@@ -69,8 +69,8 @@
         gap: 70px;
     }
     .hero-container {
-        padding: 150px 0;
-        margin-left: 150px;
+        /* padding: 150px 0;
+        margin-left: 150px; */
     }
     .smartphonepng {
         left: 55%;
@@ -86,8 +86,8 @@
     }
     .hero-container {
         max-width: 370px;
-        padding: 16% 0;
-        margin-left: 7%;
+        /* padding: 16% 0;
+        margin-left: 7%; */
 
     }
     .hero-content {
@@ -189,6 +189,29 @@
      
 }
 @media  (max-width: 490px) {
+    p {
+        font-size: 14px;
+    }
+    .content-heading {
+        font-size: 26px;
+    }
+    .container-section {
+        margin: 0 10px 30px 10px;
+    }
+    .caption {
+        font-size: 18px;
+    }
+    .smallsubmit {
+        max-width: 150px;
+        margin-top: 20px;
+    }
+    .link-submit {
+        padding: 15px 0;
+        font-size: 12px;
+    }
+    .partner-imgs {
+        grid-gap: 10px;
+    }
     .main-menu {
         height: 60px;
     }
@@ -210,7 +233,7 @@
         background-color: #3333;
     }
     .hero-container {
-        padding: 25% 0 9% 0;
+        /* padding: 25% 0 9% 0; */
     }
     .hero-content {
         margin-bottom: 10px;
@@ -240,8 +263,11 @@
         padding: 50px 0;
     }
     .sum-box {
-        max-width: 85%;
+        max-width: 100%;
         padding: 35px 35px;
+    }
+    .sum-box-img {
+        margin-bottom: 20px;
     }
     .allworks-imgs {
         flex-wrap: wrap;
