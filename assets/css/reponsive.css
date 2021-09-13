@@ -5,13 +5,20 @@
   .nav-menu {
       /* font-size: 2px; */
   }
+  .sub-nav-item {
+      top: 80px;
+  }
   .nav-menu > li {
-      padding: 28.5px 0;
+    padding: 29.2px 0;
   }
   .hero-container {
     max-width: 570px;
     /* padding: 290px 0 290px 0;
     margin-left: 200px; */
+  }
+  .smartphonepng {
+      max-width: 150%;
+      left: 55%;
   }
 }
 @media (max-width: 1367px) {
@@ -22,6 +29,10 @@
     }  
     .summary {
         padding: 100px 0 150px 0;
+    }
+    .smartphonepng {
+        max-width: 120%;
+        left: 45%;
     }
 }
 
