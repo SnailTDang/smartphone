@@ -300,13 +300,14 @@ body {
     box-shadow: rgb(149 157 165 / 20%) 0px 5px 24px;
 }
 .test-wrapper {
+    position: relative;
     display: flex;
     flex-direction: column;
     justify-content: center;
     text-align: center;
     align-items: center;
     min-width: 830px;
-    padding: 0 100px;
+    padding: 50px 100px 20px 100px;
 }
 .test-text {
     font-size: 30px;
@@ -320,6 +321,8 @@ body {
     margin-bottom: 30px;
 }
 .vectorial {
+    position: absolute;
+    top: -20px;
     margin-bottom: 50px;
 }
 .test-content {
