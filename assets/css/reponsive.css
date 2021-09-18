@@ -22,7 +22,8 @@
   }
   .test-wrapper {
       min-width: 630px;
-      padding: 0 50px;
+      padding-right: 50px;
+      padding-left: 50px;
   }
 }
 @media (max-width: 1367px) {
