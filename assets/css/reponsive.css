@@ -2,9 +2,7 @@
   .main-menu {
     height: 80px;
   }  
-  .nav-menu {
-      /* font-size: 2px; */
-  }
+
   .sub-nav-item {
       top: 80px;
   }
@@ -90,19 +88,14 @@
     .icon-menu {
         gap: 70px;
     }
-    .hero-container {
-        /* padding: 150px 0;
-        margin-left: 150px; */
-    }
+
     .smartphonepng {
         left: 55%;
         max-width: 150%;
     }
 }
 @media screen and (max-width: 769px) {
-    body {
-        /* overflow: hidden; */
-    }
+
     .menu-container {
         margin: 0 50px;
     }
@@ -112,9 +105,7 @@
         margin-left: 7%; */
 
     }
-    .hero-content {
 
-    }
     .hero-header {
         font-size: 70px;
     }
@@ -260,9 +251,6 @@
         padding: 15px 15px;
         border-radius: 50%;
         background-color: #3333;
-    }
-    .hero-container {
-        /* padding: 25% 0 9% 0; */
     }
     .hero-content {
         margin-bottom: 10px;
