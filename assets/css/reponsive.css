@@ -15,7 +15,7 @@
     margin-left: 200px; */
   }
   .smartphonepng {
-      max-width: 150%;
+      max-width: 145%;
       left: 55%;
   }
   .test-wrapper {
@@ -45,7 +45,7 @@
     }
     .menu-container {
         max-width: 900px;
-        padding: 20px 0;
+            padding: 20px 0;
     }
     .hero-container {
         max-width: 470px;
@@ -95,7 +95,7 @@
 
     .smartphonepng {
         left: 55%;
-        max-width: 145%;
+        max-width: 150%;
     }
 }
 @media screen and (max-width: 769px) {
