@@ -40,8 +40,12 @@
 }
 
 @media screen and (max-width: 1201px) {
+    .nav-menu {
+        display: none;
+    }
     .menu-container {
         max-width: 900px;
+        padding: 20px 0;
     }
     .hero-container {
         max-width: 470px;
