@@ -45,14 +45,10 @@ body {
 .nav-menu > li{
     padding: 49px 0 49px 0;
 }
-.menu-item {
-    font-size: 20px;
-    text-transform: uppercase;
+.before-li {
     position: relative;
-    padding: 0 20px;
 }
-
-.menu-item::before {
+.before-li::before {
     content: "";
     z-index: -1;
     width: 100%;
@@ -63,8 +59,15 @@ body {
     background-color: #8c4a34;
     transition: all 0.4s;
 }
-.nav-menu > li:hover .menu-item::before {
-    height: 120%;
+.menu-item {
+    font-size: 20px;
+    text-transform: uppercase;
+    position: relative;
+    padding: 0 20px;
+}
+
+.before-li:hover::before {
+    height: calc(100% - 1px);
 }
 .sub-nav {
     position:relative;
