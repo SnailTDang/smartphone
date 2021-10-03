@@ -7,6 +7,7 @@ body {
     margin: 0 auto;
 }
 .main-menu {
+    background-color: #f6754c;
     position: fixed;
     top: 0;
     left: 0;
@@ -74,20 +75,23 @@ body {
 }
 
 .sub-nav:hover .sub-nav-item{
-    display: block;
+    top: 120px;
+    opacity: 1;
 }
 .sub-nav:hover .menu-item{
     text-decoration: underline;
 }
 
 .sub-nav-item {
+    opacity: 0;
     font-size: 20px;
-    display: none;
-    position:absolute;
-    top: 120px;
-    width: 200px;
+    display: block;
     text-align: justify;
-    background-color: #384049a9;
+    position:absolute;
+    top: 0;
+    width: 200px;
+    transition: all 0.3s linear;
+    background-color: #8c4a34;
 }
 .subnav {
     padding: 15px 10px;
@@ -208,7 +212,7 @@ body {
 .smartphonepng {
     position: absolute;
     top: 50%;
-    left: 65%;
+    left: 43%;
     transform: translate(-50%, -50%);
     max-width: initial;
 }
@@ -300,7 +304,9 @@ body {
     max-width: 100%!important;
 }
 .scroll-flex {
-    padding: 20px 0;
+    max-width: 1560px;
+    margin: auto;
+    padding: 20px;
     gap: 70px;
     overflow-y: hidden;
     overflow-x: auto;
