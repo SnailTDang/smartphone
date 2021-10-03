@@ -4,7 +4,7 @@
   }  
 
   .sub-nav-item {
-      top: 80px;
+      top: 80px!important;
   }
   .nav-menu > li {
     padding: 29.2px 0;
@@ -40,12 +40,11 @@
 }
 
 @media screen and (max-width: 1201px) {
-    .nav-menu {
+    .li-home {
         display: none;
     }
     .menu-container {
         max-width: 900px;
-            padding: 20px 0;
     }
     .hero-container {
         max-width: 470px;
@@ -90,7 +89,7 @@
         display: none;
     }   
     .icon-menu {
-        gap: 30px;
+        gap: 70px;
     }
 
     .smartphonepng {
@@ -103,6 +102,9 @@
     .menu-container {
         padding: 14px 0;
         margin: 0 50px;
+    }
+    .icon-menu {
+        gap: 30px;
     }
     .search-icon,
     .menu-smartphone {

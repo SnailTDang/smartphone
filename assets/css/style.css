@@ -204,6 +204,9 @@ body {
     background-image: linear-gradient(to right, #f66963, #f68726);
     text-align: center;
 }
+.link-submit:hover {
+    background-image: linear-gradient(to right, #f68726, #f66963); 
+}
 
 .smartphone-img {
     max-width: 500px;
