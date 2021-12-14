@@ -85,3 +85,18 @@ function run(physics, chemistry, biology, mathematics, computer){
 	
 	console.log(sz_grade);
 }
+
+
+// $(document).ready(function(){
+// 	$('.scroll-flex').slick({
+// 		arrows: true,
+// 		speed: 800,
+// 		autoplaySpeed: 5000,
+// 		slidesToShow: 2,
+// 		prevArrow: $('.pre'),
+// 		nextArrow: $('.next'),
+// 		infinite: false,
+// 		autoplay: true,
+// 		autoplaySpeed: 2000,
+// 	});
+//   });
